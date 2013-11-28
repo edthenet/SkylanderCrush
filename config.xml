@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "nl.ordina.m.skylanderscrush"
         versionCode="10" 
-        version   = "1.0.3">
+        version   = "1.0.3.2">
     <!-- versionCode is optional and Android only -->
 
     <name>Skylanders Crush</name>
@@ -16,9 +16,18 @@
     <author href="http://ScorpionComputers.nl" email="Edwin@ScorpionComputers.nl">
         Scorpion Computers &amp; Software 
     </author>
+
+    <access origin="*"/>
+
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<!--<gap:platform name="webos" />-->
+	<!--<gap:platform name="symbian" />-->
+	<!--<gap:platform name="blackberry" />-->
+	<!--<gap:platform name="winphone" />-->
 	
 	<!-- multi platform settings -->
-	<preference name="phonegap-version" value="2.5.0" />
+	<preference name="phonegap-version" value="3.1.0" />
 	<!--<preference name="orientation" value="portrait" />-->
 	<preference name="target-device" value="universal" />
 	<preference name="fullscreen" value="true" />
