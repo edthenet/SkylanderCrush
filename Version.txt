@@ -1,0 +1,18 @@
+1.0.3 - 25-04-2013:
+- Titel duidelijker gemaakt
+- Snelheids winst door nieuwe versie van PhoneGap
+
+1.0.2 - 22-04-2013:
+- Afbeeldingen zijn duidelijker
+- Verbeterde functie naamgeving
+- Valsnelheid aangepast
+- Verduidelijking van lettertypes
+- Optimalisatie van de configuartie settings per device
+- Aangepaste icons voor blackberry
+
+1.0.1:
+- Iconen zijn ontwikkeld
+- Configuratie XML aangemaakt
+
+1.0.0:
+- Game ontwikkeld

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "nl.ordina.m.skylanderscrush"
+        versionCode="10" 
+        version   = "1.0.3">
+    <!-- versionCode is optional and Android only -->
+
+    <name>Skylanders Crush</name>
+
+    <description>
+		Mijn gehele gezin is verslaafd aan Candy Crush en ook aan Skylanders. Vandaar deze combinatie.
+		Deze game is gemaakt in HTML5 en via PhoneGap gepackaged tot een cross-platform app. 
+    </description>
+
+    <author href="http://ScorpionComputers.nl" email="Edwin@ScorpionComputers.nl">
+        Scorpion Computers &amp; Software 
+    </author>
+	
+	<!-- multi platform settings -->
+	<preference name="phonegap-version" value="2.5.0" />
+	<!--<preference name="orientation" value="portrait" />-->
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+	<!-- iOS Specific settings -->
+	<preference name="webviewbounce" value="false" />
+	<preference name="prerendered-icon" value="false" />
+	<preference name="stay-in-webview" value="false" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
+	<preference name="detect-data-types" value="false" />
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="show-splash-screen-spinner" value="true" />
+	<preference name="auto-hide-splash-screen" value="false" />
+	<!-- BlackBerry Specific settings -->
+	<preference name="disable-cursor" value="true" />
+	<!-- Android Specific settings -->
+	<preference name="android-minSdkVersion" value="10" />
+	<!--<preference name="android-maxSdkVersion" value="17" />-->
+	<preference name="android-installLocation" value="auto" />
+	<preference name="splash-screen-duration" value="3000" />
+	<preference name="load-url-timeout" value="15000" />	
+	
+	
+    <!-- Define app icon for each platform. -->
+	<icon src="icon.jpg" />
+	<icon src="icons/ios/57x57iOS.png" 			gap:platform="ios" 			width="57" height="57" /> 
+	<icon src="icons/ios/72x72iOS.png" 			gap:platform="ios" 			width="72" height="72" /> 
+	<icon src="icons/ios/114x114iOS.png" 		gap:platform="ios" 			width="114" height="114" /> 
+	<!--<icon src="icons/android/ldpi.png" 			gap:platform="android" 		gap:density="ldpi" /> -->
+	<!--<icon src="icons/android/mdpi.png" 			gap:platform="android" 		gap:density="mdpi" /> -->
+	<!--<icon src="icons/android/hdpi.png" 			gap:platform="android" 		gap:density="hdpi" /> -->
+	<!--<icon src="icons/android/xhdpi.png" 		gap:platform="android" 		gap:density="xhdpi" /> -->
+	<icon src="icons/bb/icon_hover.jpg" 		gap:platform="blackberry" 	gap:state="hover"/>
+	<icon src="icons/bb/icon.jpg" 				gap:platform="blackberry" />
+	<!--<icon src="icons/winphone/icon.png" 		gap:platform="winphone" /> -->
+	<!--<icon src="icons/winphone/tileicon.png" 	gap:platform="winphone" 	gap:role="background" /> -->
+	<!--<icon src="icons/webos/icon.png" 			gap:platform="webos" /> -->
+	<!--<icon src="icons/webos/miniicon.png" 		gap:platform="webos" 		gap:role="mini" /> -->
+
+    <!-- Define app splash screen for each platform. -->
+	<gap:splash src="splash.jpg" />
+    <!--<gap:splash src="images/AppIcons/Launcher/320x480launcher.png" gap:platform="ios"     width="320" height="480" />-->
+    <!--<gap:splash src="images/AppIcons/Launcher/640x960launcher.png" gap:platform="ios"     width="640" height="960" />-->
+    <!--<gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />-->
+    <!--<gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />-->
+	<!--<gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />-->
+    <!--<gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />-->
+    <!--<gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />-->
+    <!--<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />-->
+    <!--<gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />-->
+    <!--<gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />-->
+	
+	<!-- If you do not want any permissions to be added to your app, add the
+    following tag to your config.xml; you will still have the INTERNET
+    permission on your app, which PhoneGap requires. -->
+	<preference name="permissions" value="none"/>
+	<!-- to enable individual permissions use the following examples -->
+	<!--<feature name="http://api.phonegap.com/1.0/battery"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/camera"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/contacts"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/file"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/geolocation"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/media"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/network"/> -->
+	<!--<feature name="http://api.phonegap.com/1.0/notification"/> -->
+</widget>
